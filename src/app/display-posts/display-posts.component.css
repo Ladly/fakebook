@@ -1,0 +1,21 @@
+.post {
+    border-radius: .3em;
+    margin: 1em 0;
+    background-color: #fff
+}
+
+.post h6 {
+    margin-bottom: 0;
+    padding: .5em .5em;
+}
+
+.post p, h6 {
+    margin-bottom: 0;
+    padding: .5em .5em;
+
+}
+
+img {
+    width: 100%;
+    padding-bottom: .5em;
+}

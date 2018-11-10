@@ -1,0 +1,8 @@
+<div *ngIf="posts">
+	<div *ngFor="let post of posts" class="post">
+		<h6>{{post.user}}</h6>
+		<p *ngIf="post.text">{{post.text}}</p>
+		<img *ngIf="post.imageUrl" src={{post.imageUrl}} alt="post image">
+		<video *ngIf="post.videoUrl" src={{post.videoUrl}}></video>
+	</div>		
+</div>
