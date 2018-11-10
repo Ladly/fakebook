@@ -14,7 +14,7 @@ export class DisplayPostsComponent implements OnInit {
 
 	getPosts(): void {
 		this.postsService.getPosts()
-			.subscribe(posts => this.posts = posts)
+			.subscribe(posts => this.posts = posts.reverse())
 	}
 
 	ngOnInit() {
