@@ -5,17 +5,23 @@ import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component'
 import { HomePageComponent } from './home-page/home-page.component';
-import { DisplayPostsComponent } from './display-posts/display-posts.component'
+import { DisplayPostsComponent } from './display-posts/display-posts.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { UserPageComponent } from './user-page/user-page.component';
+import { AppRoutingModule } from './app-routing.module'
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		HomePageComponent,
-		DisplayPostsComponent
+		DisplayPostsComponent,
+		NavigationComponent,
+		UserPageComponent
 	],
 	imports: [
 		BrowserModule,
-		HttpClientModule
+		HttpClientModule,
+		AppRoutingModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
